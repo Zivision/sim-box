@@ -1,0 +1,27 @@
+{
+    "name": "sim-box",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/main.js",
+        "dev": "tsc && node dist/main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Zivision/sim-box.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/Zivision/sim-box/issues"
+    },
+    "homepage": "https://github.com/Zivision/sim-box#readme",
+    "devDependencies": {
+        "@types/node": "^25.0.2",
+        "typescript": "^5.9.3"
+    }
+}
